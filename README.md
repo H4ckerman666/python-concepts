@@ -13,7 +13,7 @@ with open('datos.pickle', 'wb') as file:
     pickle.dump(data, file)
 ```
 
-El unpickling es la operación inversa, deserializar un objeto, es el proceso de reconstruir un objeto, convertir una secuencia de bytes de un archivo binario ó un objeto tipo binario (bytes-like object) es convertido nuevamente en una jerarquía de objetos.
+El unpickling es la operación inversa, deserializar un objeto, es el proceso de reconstruir un objeto, convertir una secuencia de bytes nuevamente a un objeto.
 
 ```
 import pickle
